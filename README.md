@@ -1,21 +1,18 @@
-# 028 Grid Layout
+# 029 List Task Descriptions
 
-[![028 Grid Layout](https://img.youtube.com/vi/8U8jRi7lsfw/0.jpg)](https://www.youtube.com/watch?v=8U8jRi7lsfw)
+[![029 Task App](https://img.youtube.com/vi/yTrDWBbl3E4/0.jpg)](https://www.youtube.com/watch?v=yTrDWBbl3E4)
 
-The `index.html` file
-- should add styling so that the first-item grid area is named header
-- should add styling so that the second-item grid area is named leftNav
-- should add styling so that the third-item grid area is named main
-- should add styling so that the grid-container grid area is displayed as a grid
-- should add styling so that the grid-container grid area has a 10px gap
-- should add styling so that the grid-container grid area has a left navigation bar that extends vertially across the first and second row of the grid
-- should add styling so that the grid-container grid area has a header that extends horizontally across the top row
-- should add styling so that the grid-container grid area has a header that is twice the width of the left navigation bar
-- should add styling so that the grid-container grid area has a main section that extends horizontally across the second row
-- should add styling so that the grid-container grid area has a main section that is twice the width of the left navigation bar
+[![030 User Stories](https://img.youtube.com/vi/uROJmuBtiJ0/0.jpg)](https://www.youtube.com/watch?v=uROJmuBtiJ0)
+
+```
+Given that three tasks exist  
+When I load the task app  
+Then I will see all three tasks listed on separate lines
+```
+
+Steps:
+- Add three tasks to the tasks div element.
+- Identify each task with the unique id's of task-description-1 , task-description-2, task-description-3 .
 
 Resources:
-- https://www.w3schools.com/css/css_grid.asp
-
-Building toward CSTA Standards:
-- Develop programs for multiple computing platforms. (3B-AP-19) https://www.csteachers.org/page/standards
+- https://www.w3schools.com/html/html_id.asp
